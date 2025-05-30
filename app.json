@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "puncher-app",
+    "name": "Puncher",
     "slug": "puncher-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.cutpastnivu.puncherapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fe751a0-7e42-4e15-a7d2-a8c4c9a36026"
+      }
+    },
+    "sdkVersion": "53.0.0"
   }
 }
