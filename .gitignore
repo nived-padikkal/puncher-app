@@ -36,6 +36,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-#separate files
 eas.json
-.vscode
+#separate files
+*.idx
+*.nix
+.vscode/
