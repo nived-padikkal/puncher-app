@@ -20,6 +20,11 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
+      "config": {
+        "googleMaps": {
+          "apiKey": "API_KEY_GOOGLE_MAP"
+        }
+      },
       "edgeToEdgeEnabled": true,
       "package": "com.cutpastnivu.puncherapp"
     },
